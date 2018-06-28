@@ -1,0 +1,187 @@
+{"metadados": {
+    "cabecalho": {
+      "titulo": "Acidentes de Trânsito com Vítimas",
+      "descricao": "Dados dos acidentes do trânsito de Recife, disponibilizados pela CTTU",
+      "categoria_vcge": "http://vocab.e.gov.br/2011/03/vcge#transportes-transito",
+      "fonte_dados": "http://dados.recife.pe.gov.br",
+      "licenca": "Open Database License (ODbL)",
+      "responsavel_dados": "CTTU",
+      "responsavel_disponibilizar": "Emprel",
+      "frequencia_atualizacao": "trimestral",
+      "endereco_dataset": "http://dados.recife.pe.gov.br/dataset/acidentes-de-transito-com-e-sem-vitimas",
+      "status": "ativo",
+      "endereco_dataset_substituto": "",
+      "granularidade": "Por Ano",
+      "etiquetas": "acidente, acidentes, animal, bicicleta, caminhão,ônibus, ciclista, cttu, mobilidade, taxi, transito, trânsito,vitimas"
+    },
+    "recursos": [
+      {
+        "identificador": "http://dados.recife.pe.gov.br/dataset/acidentes-de-transito-com-e-sem-vitimas/resource/db610fdc-18fa-41a1-9b26-72038c56ffc8",
+        "titulo": "Acidentes de Trânsito 2015",
+        "formato": "csv",
+        "descricao": "Acidentes de Trânsito com e sem vitimas do ano 2015"
+      },
+      {
+        "identificador": "http://dados.recife.pe.gov.br/dataset/acidentes-de-transito-com-e-sem-vitimas/resource/a8bfd3bb-3399-46f1-aafa-2febc59b06c5",
+        "titulo": "Acidentes de Trânsito 2016",
+        "formato": "csv",
+        "descricao": "Acidentes de Trânsito com e sem vitimas do ano 2016"
+      },
+      {
+        "identificador": "http://dados.recife.pe.gov.br/dataset/acidentes-de-transito-com-e-sem-vitimas/resource/ff3429de-2dda-4747-b35d-aa51bbf8d1f4",
+        "titulo": "Acidentes de Trânsito 2017",
+        "formato": "csv",
+        "descricao": "Acidentes de Trânsito com e sem vitimas do ano 2017"
+      }
+    ],
+    "campos": [
+      {
+        "codigo": "tipo",
+        "descricao": "Tipo do Acidente se foi com ou sem vitimas",
+        "tipo": "Char",
+        "tamanho": 100,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "situacao",
+        "descricao": "Situação do atendimento",
+        "tipo": "Char",
+        "tamanho": 50,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "data",
+        "descricao": "data do atendimento",
+        "tipo": "date",
+        "tamanho": 10,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "hora",
+        "descricao": "hora do atendimento",
+        "tipo": "num",
+        "tamanho": 20,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "bairro",
+        "descricao": "Bairro do acidente",
+        "tipo": "Char",
+        "tamanho": 50,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "endereco",
+        "descricao": "Endereço do acidente",
+        "tipo": "Char",
+        "tamanho": 50,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "numero",
+        "descricao": "Número do acidente",
+        "tipo": "Num",
+        "tamanho": 10,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "complemento",
+        "descricao": "Complemento do acidente",
+        "tipo": "Char",
+        "tamanho": 50,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "natureza",
+        "descricao": "Tipo de Ocorrencia",
+        "tipo": "Char",
+        "tamanho": 50,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "descricao",
+        "descricao": "Descrição do acidente",
+        "tipo": "Char",
+        "tamanho": 250,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "auto",
+        "descricao": "Quantidade de automoveis no acidente",
+        "tipo": "Num",
+        "tamanho": 20,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "moto",
+        "descricao": "Quantidade de motos no acidente",
+        "tipo": "Num",
+        "tamanho": 20,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "ciclom",
+        "descricao": "Quantidade de ciclomotor no acidente",
+        "tipo": "Num",
+        "tamanho": 20,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "ciclista",
+        "descricao": "Quantidade de bicicleta no acidente",
+        "tipo": "Num",
+        "tamanho": 20,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "pedestre",
+        "descricao": "Quantidade de pedestres no acidente",
+        "tipo": "Num",
+        "tamanho": 20,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "onibus",
+        "descricao": "Quantidade de onibus no acidente",
+        "tipo": "Num",
+        "tamanho": 20,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "caminhao",
+        "descricao": "Quantidade de caminhão no acidente",
+        "tipo": "Num",
+        "tamanho": 20,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "viatura",
+        "descricao": "Quantidade de viaturas no acidente",
+        "tipo": "Num",
+        "tamanho": 20,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "outros",
+        "descricao": "Quantidade de outros veiculos no acidente",
+        "tipo": "Num",
+        "tamanho": 20,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "vitimas",
+        "descricao": "Quantidade de vitimas no acidente. A partir de 2017 essa coluna contém apenas as vítimas não fatais.",
+        "tipo": "char",
+        "tamanho": 3,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "vitimasfatais",
+        "descricao": "Quantidade de vitimas fatais no acidente",
+        "tipo": "Num",
+        "tamanho": 3,
+        "valores_permitidos": ""
+      }
+    ]
+  }
+}
