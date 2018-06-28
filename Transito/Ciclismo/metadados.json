@@ -1,0 +1,71 @@
+{
+  "metadados": {
+    "cabecalho": {
+      "titulo": "Estações Bike PE",
+      "descricao": "Relação de todas as estações do Projeto Bike PE localizados no Recife. ",
+      "categoria_vcge": "http://vocab.e.gov.br/2011/03/vcge#transito,http://vocab.e.gov.br/2011/03/vcge#cultura-lazer-esporte",
+      "fonte_dados": "http://dados.recife.pe.gov.br",
+      "licenca": "Open Database License (ODbL)",
+      "responsavel_dados": "Tembici.",
+      "responsavel_disponibilizar": "Emprel",
+      "frequencia_atualizacao": "semestral",
+      "endereco_dataset": "http://dados.recife.pe.gov.br/dataset/ciclovias-ciclofaixas-estacoes-de-aluguel-de-bikes-e-rotas",
+      "status": "ativo",
+      "endereco_dataset_substituto": "",
+      "granularidade": "Por estação de bike",
+      "etiquetas": "Bike, Ciclovias, Ciclofaixas,Bicicletas,bikepe,estações"
+    },
+    "recursos": [
+      {
+        "identificador": "http://dados.recife.pe.gov.br/dataset/ciclovias-ciclofaixas-estacoes-de-bikes-e-rotas-de-bicicletas/resource/e6e4ac72-ff15-4c5a-b149-a1943386c031",
+        "titulo": "Estações do Bike - PE no Recife",
+        "formato": "csv",
+        "descricao": "Relação de todas as estações do Projeto Bike PE  disponíveis para aluguel de bicicletas localizados no Recife"
+      }
+    ],
+    "campos": [
+      {
+        "codigo": "codigo",
+        "descricao": "Número da estação",
+        "tipo": "NUMBER",
+        "tamanho": 3,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "nome",
+        "descricao": "Nome da Estação",
+        "tipo": "CHAR",
+        "tamanho": 100,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "latitude",
+        "descricao": "Latitude em coordenadas geográficas em graus decimais",
+        "tipo": "NUMER",
+        "tamanho": 20,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "longitude",
+        "descricao": "Longitude em coordenadas geográficas em graus decimais",
+        "tipo": "NUMER",
+        "tamanho": 20,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "localizacao",
+        "descricao": "localização da Estação de Bike",
+        "tipo": "CHAR",
+        "tamanho": 200,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "capacidadebikes",
+        "descricao": "Quantidade de bicicletas suportadas na estação",
+        "tipo": "NUMBER",
+        "tamanho": 2,
+        "valores_permitidos": ""
+      }
+    ]
+  }
+}
